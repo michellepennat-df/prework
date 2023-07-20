@@ -1,4 +1,4 @@
-class Person {
+class PersonClass {
     name: string;
     age: number;
 
@@ -14,7 +14,7 @@ class Person {
     }
 }
 
-class Student extends Person {
+class Student extends PersonClass {
     grade: string;
 
     constructor(name: string, age: number, grade: string) {
@@ -27,7 +27,7 @@ class Student extends Person {
     }
 }
 
-class Animals {
+class AnimalsClass {
     private name: string;
     protected age: number;
 
