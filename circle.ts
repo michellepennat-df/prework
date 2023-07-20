@@ -1,4 +1,4 @@
-class Circle {
+class CircleTheme {
     radius: number;
 
     constructor(radius: number) {
@@ -15,12 +15,12 @@ class Circle {
     }
 }
 
-const circle1 = new Circle(5);
+const circle1 = new CircleTheme(5);
 console.log("Area circulo 1: " + circle1.area);
 
 // or
 
-const circle4 = new Circle(5);
-const area = circle4.calculateArea();
-console.log("The area of the circle is:", area);
+const circle4 = new CircleTheme(5);
+const area1 = circle4.calculateArea();
+console.log("The area of the circle is:", area1);
 
