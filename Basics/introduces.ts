@@ -27,10 +27,10 @@ type Point = { x: number; y: number };
 
 type MyType = string | number;
 
-type Person = { name: string } & { age: number };
+type TPersonIntro = { name: string } & { age: number };
 
 type ReadonlyPoint = Readonly<Point>;
-type OptionalPerson = Partial<Person>;
+type OptionalPerson = Partial<TPersonIntro>;
 
 // Creating a custom type alias for representing a user’s ID:
 // Defining a union type for a variable that can store either a string or an array of numbers:
@@ -42,5 +42,5 @@ type UserId = number;
 type UserID = string;
 type UnionType = string | number[];
 type InserctionPerson = { name: string } & { address: number };
-type MappedReadonlyPoint = Readonly<Person>;
+type MappedReadonlyPoint = Readonly<TPersonIntro>;
 type returnNumber = (arg: string) => number;
