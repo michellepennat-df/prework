@@ -1,12 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>Hola mi nombre es Michelle</p>
-    <button>Esto es un botón</button>
-</body>
+  </head>
+  <body>
+    <p>1. What is the purpose of the Feature Branch Workflow in Git?</p>
+    <span>
+      - El propósito del Flujo de Trabajo de Ramas de Características en Git es
+      permitir el desarrollo colaborativo al permitir que los desarrolladores
+      trabajen en nuevas características o correcciones de errores en ramas
+      aisladas. Este flujo de trabajo ayuda a mantener un historial del proyecto
+      limpio y organizado, reduce conflictos y facilita el seguimiento de
+      cambios para características específicas.
+    </span>
+    <p>2. How do you set up a new Git repository for your project?</p>
+    <span>
+      - Para configurar un nuevo repositorio de Git para algún proyecto, se debe
+      navegar hasta el directorio del proyecto en la línea de comandos y usar el
+      comando "git init".
+    </span>
+    <p>3. What is the main branch in the Feature Branch Workflow?</p>
+    <span>
+      - La rama principal en el Flujo de Trabajo de Ramas de Características
+      generalmente se llama "master" o "main", dependiendo de la convención de
+      nombres de tu proyecto. Actualmente se llama main.
+    </span>
+    <p>4. How do you create a new branch for a specific feature or task?</p>
+    <span>- Se crea usando el comando: "git checkout -b branch_name". </span>
+    <p>5. How do you switch to a different branch in Git?</p>
+    <span>
+      - Para cambiar a una rama se usa el comando "git checkout branch_name".
+    </span>
+    <p>
+      6. How do you make changes and track your progress in the feature branch?
+    </p>
+    <span>
+      - Para hacer cambios y seguir el progreso en la rama de características,
+      se modifican los archivos del proyecto según sea necesario. Git seguirá
+      automáticamente los cambios.
+    </span>
+    <p>7. How do you merge a feature branch into the main branch?</p>
+    <span>
+      - Para hacer merge a una rama de características en la rama principal,
+      primero cambiar a la rama principal usando "git checkout main" y luego
+      usar el comando "git merge branch".
+    </span>
+    <p>
+      8. What should you do if there are merge conflicts during the merge
+      process?
+    </p>
+    <span>
+      - Si hay conflictos de fusión durante el merge, se debe resolver
+      manualmente editando los archivos en conflicto y haciendo commit de los
+      cambios.
+    </span>
+    <p>
+      9. Why is it important to test the merged codebase after completing the
+      merge?
+    </p>
+    <span>
+      - Es importante probar el código fusionado después de completar la fusión
+      para asegurarnos de que la nueva característica o corrección funcione de
+      manera correcta en el código existente y que no se introduzcan nuevos
+      problemas.
+    </span>
+    <p>
+      10. What are some additional challenges you can undertake to enhance your
+      understanding of the Feature Branch Workflow?
+    </p>
+    <span>
+      - Algunos desafíos adicionales para mejorar la comprensión del flujo
+      podría incluir estrategias de ramificación para equipos grandes y manejo
+      de ramas de lanzamiento, realizar pull request de características nuevas.
+    </span>
+    <p>
+      11. How do you delete a feature branch after merging it into the main
+      branch?
+    </p>
+    <span>
+      - Para eliminar una rama se debe ejecutar "git branch -d branch-name".
+    </span>
+    <p>
+      12. What is the purpose of code reviews in the Feature Branch Workflow?
+    </p>
+    <span>
+      - El propósito de las revisiones de código es garantizar la calidad del
+      código, identificar posibles problemas y proporcionar retroalimentación
+      sobre los cambios realizados en la rama de características antes de
+      fusionarlos en la rama principal.
+    </span>
+    <p>13. How do you push your feature branch to a remote repository?</p>
+    <span> - git push origin branch-name. </span>
+    <p>
+      14. What is the recommended approach for naming feature branches in the
+      Feature Branch Workflow?
+    </p>
+    <span>
+      - El enfoque recomendado para nombrar ramas de características es utilizar
+      nombres descriptivos que reflejen la característica o tarea específica en
+      la que se está trabajando, como "feature/login" o "bugfix/bug-navigation"
+      y sobre todo que nombre de las ramas estén en inglés.
+    </span>
+    <p>
+      15. How can you keep your feature branch up to date with the latest
+      changes from the main branch?
+    </p>
+    <span>
+      - Se debe utilizar "git merge main" o "git rebase main" para mantener
+      actualizada la rama.
+    </span>
+  </body>
 </html>
