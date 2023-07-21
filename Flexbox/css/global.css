@@ -1,0 +1,114 @@
+* {
+  --bright-red: rgb(242, 95, 58);
+  --bright-red-focus: #f74114;
+  --dark-blue: rgb(35, 44, 81);
+  --very-dark-blue: rgb(29, 30, 37);
+  --dark-grayish-blue: rgb(143, 148, 167);
+  --pale-red: rgb(255, 239, 234);
+  --light-gray-variant: rgb(249, 249, 249);
+}
+
+h1 {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Be Vietnam Pro";
+  color: var(--dark-blue);
+  font-style: normal;
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Be Vietnam Pro";
+  color: var(--dark-blue);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+}
+
+h6 {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  letter-spacing: -0.01em;
+  color: #3f4868;
+  text-align: center;
+}
+
+p {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  color: #b9b9c1;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 134px;
+  height: 44px;
+  background: var(--bright-red);
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.1806px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: var(--bright-red-focus);
+}
+
+.btn-secundary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 134px;
+  height: 44px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.1806px;
+  line-height: 19px;
+  color: var(--bright-red);
+}
+
+.btn-secundary:hover {
+  background: #eeeeee;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 58px;
+    line-height: 66px;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
