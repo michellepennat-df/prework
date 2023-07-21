@@ -1,3 +1,5 @@
+// Un cambio
+
 function fetchDataSimulate(url: string): Promise<string> {
     return new Promise((resolve, reject) => {
         // Simulating an asynchronous operation
