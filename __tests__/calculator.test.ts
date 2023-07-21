@@ -1,4 +1,4 @@
-import { addCalc, subtractCalc, multiplyCalc } from "../calculator";
+import { addCalc, subtractCalc, multiplyCalc } from "../Testing/calculator";
 
 test("adds two numbers correctly", () => {
     expect(addCalc(2, 3)).toBe(5);
